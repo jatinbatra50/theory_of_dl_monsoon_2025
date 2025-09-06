@@ -41,8 +41,8 @@ of three important aspects of this theory:
 
 | Week | Topic (edit me) | Notes |
 |:---:|:-----------------|:-----:|
-| 01 | Topic | [Notes (PDF)](assets/notes/week-01.pdf) |
-| 02 | Topic | [Notes (PDF)](assets/notes/week-02.pdf) |
+| 01 | Implicit bias of Gradient Flow in Overparameterized Linear Regression | [Notes (PDF)](assets/notes/week-01.pdf) |
+| 02 | A Glimpse of Double Descent | [Notes (PDF)](assets/notes/week-02.pdf) |
 | 03 | Topic | [Notes (PDF)](assets/notes/week-03.pdf) |
 | 04 | Topic | [Notes (PDF)](assets/notes/week-04.pdf) |
 | 05 | Topic | [Notes (PDF)](assets/notes/week-05.pdf) |
