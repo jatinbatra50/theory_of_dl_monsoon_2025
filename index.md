@@ -17,8 +17,6 @@ with neural networks as the prototypical setup, more specifically, the focus wil
 
 ## Weekly Outline
 
-[]> **Tip:** Keep the filenames `week-01.pdf`, `week-02.pdf`, … `week-15.pdf` in `assets/notes/` for zero‑config links.
-
 | Week | Topic | Notes |
 |:---:|:-----------------|:-----:|
 | 01 | Implicit bias of Gradient Flow in Overparameterized Linear Regression | [Notes (PDF)](assets/notes/week-01.pdf) |
