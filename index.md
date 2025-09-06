@@ -1,9 +1,3 @@
----
-layout: page
-title: "CSS.428.1 – Introduction to Theory of Deep Learning (Monsoon 2025)"
-permalink: /
----
-
 **Instructor:** Jatin Batra  
 **Schedule:** Thursdays, 2:00–3:30 PM  
 **Room:** A-238  
