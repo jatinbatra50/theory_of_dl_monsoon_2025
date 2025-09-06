@@ -1,38 +1,80 @@
 ---
 layout: page
 title: "CSS.428.1 – Introduction to Theory of Deep Learning (Monsoon 2025)"
+permalink: /
 ---
 
-**Instructor:** Jatin Batra\  
-**Schedule:** Thursdays, 2:00–3:30 PM\  
-**Room:** A-238\  
-**Email:** [jatinbatra50@gmail.com](mailto:jatinbatra50@gmail.com)\  
-**Textbook:** *Learning Theory from First Principles* by Francis Bach (covering Chapter 9 and supporting chapters 3, 4, 5, 7, 8, 12, 14).
+> **How to edit:** Change the *Topic* text for each week and, once you upload the PDF to `assets/notes/`, the **Notes (PDF)** link will work automatically. See **How to upload lecture notes** below.
+
+**Instructor:** Jatin Batra  
+**Schedule:** Thursdays, 2:00–3:30 PM  
+**Room:** A-238  
+**Email:** [jatinbatra50@gmail.com](mailto:jatinbatra50@gmail.com)  
+**Textbook:** *Learning theory from first principles* — Francis Bach (Chapter 9 and relevant parts of Chapters 3, 4, 5, 7, 8, 12, 14).
 
 ## Course Description
 
-Deep learning has achieved remarkable success, but its theoretical foundations are still being actively explored. This course covers three major areas of deep learning theory:
+This mini-course serves as a take-off point for research in theory of deep learning,
+with neural networks as the prototypical setup. We will rigorously cover basics
+of three important aspects of this theory:
 
-- **Approximation theory** – How neural networks can approximate complex functions and the limits of their expressive power.
-- **Implicit bias of overparameterized models** – Why heavily overparameterized models trained with gradient-based methods often generalize well, even when they interpolate the training data.
-- **(Non)-convex optimization** – Challenges in optimizing non-convex loss functions in deep learning, and insights into why simple optimization algorithms (like gradient descent) can find good solutions in practice.
+1. **Approximation theory.** In this part, we will answer the question “How
+   well do neural network architectures approximate functions we want to
+   model?”
 
-Through lectures and readings, students will learn foundational principles that explain the success of deep neural networks. They will also gain the background needed to understand current research in deep learning theory.
+2. **Implicit bias of overparameterized models.** Generalization power
+   of modern deep learning cannot be easily explained as the number of pa-
+   rameters is often of the same order as the number of training samples. In
+   this part, we will initiate an understanding of implicit bias which captures
+   additional properties enjoyed by natural training procedures for overpa-
+   rameterized models that are not captured explicitly, and which could hold
+   the key to generalization.
 
-## Weekly Outline
+3. **(Non)-convex optimization.** Training procedures for modern deep
+   learning require non-convex optimization. In this part, we will study
+   their convergence, which requires going beyond classical understanding
+   of convex optimization.
 
-1. **Week 1:** Topic  
-2. **Week 2:** Topic  
-3. **Week 3:** Topic  
-4. **Week 4:** Topic  
-5. **Week 5:** Topic  
-6. **Week 6:** Topic  
-7. **Week 7:** Topic  
-8. **Week 8:** Topic  
-9. **Week 9:** Topic  
-10. **Week 10:** Topic  
-11. **Week 11:** Topic  
-12. **Week 12:** Topic  
-13. **Week 13:** Topic  
-14. **Week 14:** Topic  
-15. **Week 15:** Topic
+## Weekly Outline (edit me)
+
+> **Tip:** Keep the filenames `week-01.pdf`, `week-02.pdf`, … `week-15.pdf` in `assets/notes/` for zero‑config links.
+
+| Week | Topic (edit me) | Notes |
+|:---:|:-----------------|:-----:|
+| 01 | Topic | [Notes (PDF)](assets/notes/week-01.pdf) |
+| 02 | Topic | [Notes (PDF)](assets/notes/week-02.pdf) |
+| 03 | Topic | [Notes (PDF)](assets/notes/week-03.pdf) |
+| 04 | Topic | [Notes (PDF)](assets/notes/week-04.pdf) |
+| 05 | Topic | [Notes (PDF)](assets/notes/week-05.pdf) |
+| 06 | Topic | [Notes (PDF)](assets/notes/week-06.pdf) |
+| 07 | Topic | [Notes (PDF)](assets/notes/week-07.pdf) |
+| 08 | Topic | [Notes (PDF)](assets/notes/week-08.pdf) |
+| 09 | Topic | [Notes (PDF)](assets/notes/week-09.pdf) |
+| 10 | Topic | [Notes (PDF)](assets/notes/week-10.pdf) |
+| 11 | Topic | [Notes (PDF)](assets/notes/week-11.pdf) |
+| 12 | Topic | [Notes (PDF)](assets/notes/week-12.pdf) |
+| 13 | Topic | [Notes (PDF)](assets/notes/week-13.pdf) |
+| 14 | Topic | [Notes (PDF)](assets/notes/week-14.pdf) |
+| 15 | Topic | [Notes (PDF)](assets/notes/week-15.pdf) |
+
+## How to upload lecture notes (PDF)
+
+1. In your GitHub repository, create the folder: `assets/notes/` (same level as `index.md`).  
+   – If you already cloned locally, just make that folder on your machine.  
+2. Name your files exactly as: `week-01.pdf`, `week-02.pdf`, … `week-15.pdf`.  
+3. Upload using either method:  
+   - **GitHub web UI:** Click **Add file → Upload files**, drag the PDFs into `assets/notes/`, and **Commit**.  
+   - **Git (local):**
+     ```bash
+     mkdir -p assets/notes
+     cp /path/to/your/week-01.pdf assets/notes/
+     git add assets/notes/week-01.pdf
+     git commit -m "Add notes for week 01"
+     git push origin main
+     ```
+4. That’s it — the links in the table above (e.g., `assets/notes/week-01.pdf`) will work on both GitHub and GitHub Pages.  
+   If you ever change the folder or filenames, just update the links in the table.
+
+---
+
+*Last updated: {{ site.time | date: "%-d %b %Y" }}*
