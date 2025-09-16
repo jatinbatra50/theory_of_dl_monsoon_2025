@@ -21,8 +21,8 @@ with neural networks as the prototypical setup, more specifically, the focus wil
 |:---:|:-----------------|:-----:|
 | 01 | Implicit bias of Gradient Flow in Overparameterized Linear Regression | [Notes (PDF)](assets/notes/week-01.pdf) |
 | 02 | A Glimpse of Double Descent | [Notes (PDF)](assets/notes/week-02.pdf) |
-| 03 | Mickey Mouse Proof of Double Descent | [Notes (PDF)](assets/notes/week-03.pdf) |
-| 04 | Topic | [Notes (PDF)](assets/notes/week-04.pdf) |
+| 03 | Towards a Mickey Mouse Proof of Double Descent | [Notes (PDF)](assets/notes/week-03.pdf) |
+| 04 | Mickey Mouse Proof of Double Descent | [Notes (PDF)](assets/notes/week-04.pdf) |
 | 05 | Topic | [Notes (PDF)](assets/notes/week-05.pdf) |
 | 06 | Topic | [Notes (PDF)](assets/notes/week-06.pdf) |
 | 07 | Topic | [Notes (PDF)](assets/notes/week-07.pdf) |
